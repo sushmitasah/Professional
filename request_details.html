@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REQUEST DETAILS</title>
+	<style>
+    body
+    {
+
+
+			    background-image: url(ima7.png);
+				background-size:1550px 1000px;
+				display: contents;
+			
+    }
+
+    #div_1
+    {
+    	height: 500px;
+    	width:700px;
+    	background-color: #ffcccc;
+        box-shadow: 10px 10px 70px black;
+        margin-top: 50px;
+
+    }
+   
+   #div_2
+   {
+    padding-top: 70px;
+   }
+
+   textarea
+   {
+    resize: vertical;
+    max-height: 300px;
+   }
+
+   input,textarea
+   {
+    outline:none;
+   }
+
+   input:focus,textarea:focus
+   {
+    box-shadow: 0 0 4px rgba(255,0,0,0.5);
+    border:1px solid rgb(255,0,0);
+   }
+
+
+    </style>
+    
+	
+
+
+</head>
+
+<body>
+
+	<center>
+    <h1 style="color:purple;font-family: Times new roman"><b>DETAILS</b></h1>
+	<div id="div_1">
+
+        <div id="div_2">
+      
+            <form id="contactForm" name="Regform" onsubmit="return vali()" method="POST">
+
+                <center><strong class="s">Company's Name:  </strong><input type="text" placeholder="company name" id="names"/><br><p></p></center>
+               
+                <center><strong class="s">About Company:  </strong><textarea name="abouts" placeholder="about company" id="abouts"></textarea><br><p></p></center>
+
+                <center><strong class="s">Email:  </strong><input type="text"  placeholder="enter your email" id="emails" /><br><p></p></center>
+
+
+                <center><strong class="s">Field: </strong><input type="text"  placeholder="enter field" id="fields" /><br><p></p></center>
+
+                <center><strong class="s">Duration:  </strong><input type="text" placeholder="Duration" id="durations"/><br><p></p></center>
+               
+               <center><strong class="s">Starting Date:  </strong><input type="date" placeholder="Starting Date" id="Times"/><br><p></p></center>
+
+               <center><strong class="s">Salary:  </strong><input type="text" placeholder="Salary" id="salarys"/><br><p></p></center>
+              
+               <center><strong class="s">Task:  </strong><textarea name="task" placeholder="Task of the company" id="tasks"></textarea><br><p></p></center>
+
+
+               
+              
+                <center> <button type="submit">Request To Hire</button><br><br></center>
+
+            </form>
+        </div>
+
+
+	</div>
+    </center>
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+<script src="datasend_db6.js"></script> 
+
+
+
+
+
+
+</body>
+</html>
