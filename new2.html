@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NEW REQUESTS</title>
+
+	<style>
+	body
+	{
+		 background-image: url(fintech1.jpg);
+		 background-size:1550px 1000px;
+		 display: contents;
+			
+	}
+	div
+	{
+		margin-left: 350px; 
+	}
+
+	table
+	{
+		width:500px;
+	}
+
+	th
+	{
+       text-align: left;
+	}
+
+	table,th,td
+	{
+		border:1px solid #000;
+		border-collapse: collapse;
+	}
+	th,td
+	{
+		padding: 10px;
+	}
+	tr:nth-child(even)
+	{
+		background-color: #fff;
+	}
+
+   tr:nth-child(odd)
+   {
+   	background-color: #ddd;
+   }
+
+   </style>
+</head>
+<body>	
+
+	
+
+
+<div>
+<table>
+	<caption style="color:white"><h2><b>REQUESTS</b></h2></caption>
+	<thead>
+		<tr>
+            <th>Company Name</th>
+            <th>About Company</th>
+            <th>Email</th>
+            <th>Field</th>
+            <th>Duration</th>
+            <th>Starting Date</th>
+            <th>Salary</th>
+            <th>Task</th>
+            <th>Actions</th>
+
+		</tr>
+	</thead>
+	<tbody id="table_body" >
+
+
+	</tbody>
+
+</table>
+
+</div>
+
+<br>
+<br>
+<center>
+<a href="http://localhost/ongoing.html"><button>Go to hire page</button></a>
+</center>
+
+<script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+<script>
+var config = {
+    apiKey: "AIzaSyAJ-kHys7rIXfoLH1AmmnTIS41k0v9hYcM",
+    authDomain: "fir-training-38447.firebaseapp.com",
+    databaseURL: "https://fir-training-38447.firebaseio.com",
+    projectId: "fir-training-38447",
+    storageBucket: "fir-training-38447.appspot.com",
+    messagingSenderId: "300374935309"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+
+<script src="main_new2.js"></script>
+
+
+
+
+
+
+</body>
+</html>
